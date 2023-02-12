@@ -1,0 +1,26 @@
+[
+    {
+        "country":"السعودية",
+        "city":"مكة المكرمة",
+        "isoCodeCountry":"SA",
+        "isoCodeCity":"Makkah al Mukarramah"
+    },
+    {
+        "country":"الجزائر",
+        "city":"ورقلة",
+        "isoCodeCountry":"DZ",
+        "isoCodeCity":"Ouargla"
+    },
+    {
+        "country":"الولايات المتحدة",
+        "city":"نيفادا",
+        "isoCodeCountry":"US",
+        "isoCodeCity":"Nevada"
+    },
+    {
+        "country":"بريطانيا",
+        "city":"لندن",
+        "isoCodeCountry":"UK",
+        "isoCodeCity":"London"
+    }
+]

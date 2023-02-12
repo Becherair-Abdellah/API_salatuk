@@ -1,0 +1,160 @@
+:root {
+    --main-color: #2f0099;
+    --second-color: #8a00ef;
+    --light-color: #7d30cf;
+    --graident-color: linear-gradient(45deg, #2f0099, #8a00ef)
+}
+
+html {
+    direction: rtl;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    height: 100%;
+    background: var(--graident-color);
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+img {
+    /* filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(112%) contrast(100%); */
+    width: 26px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu {
+    padding: 5px 0;
+}
+
+.info h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info .text {
+    color: white;
+    display: block;
+    margin: -7px 0 0;
+    text-align: center;
+}
+
+.info .info-li {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info .info-li li {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 11px;
+}
+
+.info .info-li li .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ffffff4a;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+}
+
+.info .info-li li .icon img {}
+
+.info .info-li li .countryCity {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .info-li li .countryCity .country {}
+
+.info .info-li li .countryCity .city {}
+
+.info .info-li li .countryCity .addition {
+    display: block;
+    text-align: end;
+}
+
+.info .info-li li .dateHijrimiladi {
+    text-align: end;
+}
+.info .info-li li .dateHijrimiladi .addition {}
+
+.timesPray {
+    width: 80%;
+    margin: 1rem auto 0;
+}
+
+.timesPray li {
+    display: flex;
+    background: #ffffff40;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.timesPray li .text {
+    width: 50%;
+    padding: 0 13px;
+}
+
+.timesPray li .time {
+    width: 50%;
+    text-align: center;
+}
+.higri{
+    display: flex;
+    gap: 6px;
+}
+.addCountry{
+    font-size: 30px;
+    cursor: pointer;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+.countries{
+    display: flex;
+    flex-direction: column;
+    background: #5c55de;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 0px 3px 2px white;
+    transform: translate(-50%, -50%);
+}
+.countries.visible{
+    visibility: visible;
+}
+.countries li:not(:last-child){
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 9px;
+}

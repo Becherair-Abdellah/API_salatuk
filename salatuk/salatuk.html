@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salatuk</title>
+    <link rel="shortcut icon" type="image" href="assets/img/undraw_map_dark_re_36sy.svg">
+    <!-- -- fonts google ---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- --- css file for styling -- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ---- axios ---- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js" integrity="sha512-L4lHq2JI/GoKsERT8KYa72iCwfSrKYWEyaBxzJeeITM9Lub5vlTj8tufqYk056exhjo2QDEipJrg6zen/DDtoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="assets/js/main.js"></script>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <img src="assets/img/bars-solid.svg" alt="">
+        </div>
+        <div class="info">
+            <h1>مواقيت الصلاة</h1>
+            <span class="text" >توقيت الصلاة الخاص بمدينتك الحالية</span>
+            <div class="info-li">
+                <li>
+                    <div class="icon">
+                        <img src="assets/img/location-pin-solid.svg" alt="">
+                    </div>
+                    <div class="countryCity">
+                        <div class="country">مكة المكرمة , السعودية</div>
+                        <span class="addition">موقعك الحالي الآن</span>
+                    </div>
+                    <span class="addCountry">+</span>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="assets/img/clock-solid.svg" alt="">
+                    </div>
+                    <div class="timing">
+                        12LS - 10 LS & 77 BT - 99 BB
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="assets/img/calendar-days-solid.svg" alt="">
+                    </div>
+                    <div class="dateHijrimiladi">
+                        <div class="higri"> <span id="weekday"></span><span id="month"></span><span id="year"></span></div>,
+                        <span class="addition">التوقيت الحالي</span>
+                    </div>
+                </li>
+            </div>
+        </div>
+        <div class="timesPray">
+            <li id="imsak">
+                <span class="text">الإمساك</span>
+                <sapn class="time">04:05</sapn>
+            </li>
+            <li id="subh">
+                <span class="text">الصبح</span>
+                <sapn class="time">04:05</sapn>
+            </li>
+            <li id="dhur">
+                <span class="text">الظهر</span>
+                <sapn class="time">04:05</sapn>
+            </li>
+            <li id="asr">
+                <span class="text">العصر</span>
+                <sapn class="time">04:05</sapn>
+            </li>
+            <li id="maghrib">
+                <span class="text">المغرب</span>
+                <sapn class="time">04:05</sapn>
+            </li>
+            <li id="isha">
+                <span class="text">العشاء</span>
+                <sapn class="time">04:05</sapn>
+            </li>
+        </div>
+    </div>
+    <div class="countries">
+        <li>السعودية/ مكة المكرمة</li>
+        <li>بريطانيا/ لندن</li>
+        <li>الجزائر/ الجزائر</li>
+        <li>الولايات المتحدة/ نيفادا</li>
+    </div>
+    <input type="file" id="myFile">
+    <img src="" alt="">
+</body>
+
+</html>
